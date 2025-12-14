@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aura</title>
+  <link rel="stylesheet" href="assets/css/output.css" />
+</head>
+
+<body class="font-primary bg-[color:var(--color-page)] text-[color:var(--color-text)]">
+  <div class="mx-auto my-8 w-[520px] max-w-[calc(100%-32px)]">
+
+    <!-- общий контейнер одинаковой ширины для ВСЕХ блоков -->
+    <div class="px-4">
+
+      <!-- HEADER -->
+      <header>
+        <img
+          src="assets/images/header.png"
+          alt="Header"
+          class="block-img"
+        />
+      </header>
+
+      <main>
+
+        <!-- HERO -->
+        <section>
+          <img
+            src="assets/images/hero.png"
+            alt="Aura hero"
+            class="block-img"
+          />
+        </section>
+
+        <!-- AUCTION -->
+        <section>
+          <section class="panel" id="auction">
+            <div class="flex items-center gap-3">
+              <h2 class="text-lg font-extrabold">Аукцион</h2>
+              <span class="badge">live</span>
+            </div>
+
+            <div class="auction">
+              <div>
+                <img src="assets/images/witcher-3-1.png" alt="NFT" class="avatar">
+              </div>
+
+              <div class="grid gap-2">
+                <div class="flex items-center justify-between gap-4">
+                  <span class="muted">Коллекция</span>
+                  <strong>Witcherrr_3 (xml_t5)</strong>
+                </div>
+
+                <div class="flex items-center justify-between gap-4">
+                  <span class="muted">Ставка</span>
+
+                  <div class="price-box">
+                    <div class="price-box__value">0.10 ETH</div>
+                    <div class="price-box__usd">$351.24</div>
+                  </div>
+                </div>
+
+                <button class="btn btn-primary btn-sm self-start">
+                  Сделать ставку
+                </button>
+              </div>
+
+              <div class="auction__right">
+                <div class="timer">
+                  <div class="timer__title">Окончание через:</div>
+
+                  <div class="timer__row">
+                    <div class="timer__cell">
+                      <div class="timer__num">01</div>
+                      <div class="timer__lbl">час</div>
+                    </div>
+                    <div class="timer__cell">
+                      <div class="timer__num">48</div>
+                      <div class="timer__lbl">мин</div>
+                    </div>
+                    <div class="timer__cell">
+                      <div class="timer__num">47</div>
+                      <div class="timer__lbl">сек</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gridcards">
+              <img src="assets/images/frame-10.png" class="mini-img" alt="">
+              <img src="assets/images/frame-12.png" class="mini-img" alt="">
+              <img src="assets/images/frame-13.png" class="mini-img" alt="">
+              <img src="assets/images/frame-14.png" class="mini-img" alt="">
+              <img src="assets/images/frame-15.png" class="mini-img" alt="">
+              <img src="assets/images/frame-16.png" class="mini-img" alt="">
+              <img src="assets/images/frame-17.png" class="mini-img" alt="">
+              <img src="assets/images/frame-18.png" class="mini-img" alt="">
+            </div>
+
+            <div class="flex justify-center">
+              <button class="btn btn-ghost btn-sm">Все аукционы</button>
+            </div>
+          </section>
+
+          <!-- MOCK BLOCKS (СЛИТНО) -->
+          <section class="mock">
+            <img class="mock__img" src="assets/images/frame-30.png" alt="">
+          </section>
+
+          <section class="mock">
+            <img class="mock__img" src="assets/images/frame-28.png" alt="">
+          </section>
+
+          <!-- ВАЖНО: author теперь с id и белым фоном + отступ сверху -->
+          <section class="mock mock--author" id="author">
+            <img class="mock__img" src="assets/images/4-1.png" alt="">
+          </section>
+
+          <section class="mock">
+            <img class="mock__img" src="assets/images/5-1.png" alt="">
+          </section>
+
+          <!-- gray + green (без зазора) -->
+          <section class="leading-none">
+            <img src="assets/images/6.png" class="block-img" alt="">
+          </section>
+
+          <section class="leading-none">
+            <img src="assets/images/footer-1.png" class="block-img" alt="">
+          </section>
+
+        </section>
+      </main>
+
+    </div>
+  </div>
+</body>
+</html>
