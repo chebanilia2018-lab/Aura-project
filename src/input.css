@@ -14,9 +14,6 @@
   --color-mint: #63e6c2;
 }
 
-/* ===============================
-   BUTTONS
-   =============================== */
 
 .btn { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold transition; }
 .btn-primary { @apply bg-[color:var(--color-mint)] text-black hover:opacity-90; }
@@ -25,10 +22,6 @@
 
 .muted { @apply text-[color:var(--color-muted)]; }
 .badge { @apply inline-flex items-center border border-black/10 bg-black/5 px-3 py-1 text-xs font-semibold; }
-
-/* ===============================
-   AUCTION — КВАДРАТНЫЕ БЛОКИ
-   =============================== */
 
 .panel {
   @apply bg-white border border-black/10 shadow-sm p-5;
@@ -44,17 +37,13 @@
   @apply w-[120px] h-[120px] rounded-full object-cover border border-black/10;
 }
 
-/* ставка */
+
 .price-box {
   @apply bg-black/5 px-4 py-2 text-right;
   border-radius: 0;
 }
 .price-box__value { @apply font-extrabold text-base; }
 .price-box__usd { @apply text-xs text-[color:var(--color-muted)]; }
-
-/* ===============================
-   TIMER
-   =============================== */
 
 .timer {
   @apply bg-[color:var(--color-black-2)] text-white px-4 py-3 border border-white/10;
@@ -72,10 +61,6 @@
 
 .timer__lbl { @apply text-xs text-white/60; }
 
-/* ===============================
-   GRID
-   =============================== */
-
 .gridcards {
   @apply mt-4 grid gap-3;
   grid-template-columns: repeat(4, 1fr);
@@ -85,10 +70,6 @@
   @apply w-[90%] mx-auto;
   border-radius: 0;
 }
-
-/* ===============================
-   MOCK — ОДИНАКОВАЯ ШИРИНА ДЛЯ ВСЕХ
-   =============================== */
 
 .mock {
   margin: 0;
@@ -103,21 +84,12 @@
   border-radius: 0;
 }
 
-/* ===============================
-   СТАТЬ АВТОРОМ — ЦЕНТР + ОТСТУП
-   =============================== */
-
-/* ===============================
-   СТАТЬ АВТОРОМ — ЦЕНТР + ОТСТУП СНИЗУ
-   =============================== */
-
 #author {
   background: #ffffff;
   padding-top: 56px;
-  padding-bottom: 64px;   /* ← ВАЖНО: отступ снизу */
+  padding-bottom: 64px;   
 }
 
-/* контент чуть ближе к центру */
 #author .mock__img {
   background: #ffffff;
   padding-left: 32px;
