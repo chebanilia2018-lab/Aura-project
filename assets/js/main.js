@@ -1,4 +1,4 @@
-// burger
+
 const burgerBtn = document.getElementById('burgerBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 
@@ -9,7 +9,6 @@ if (burgerBtn && mobileMenu) {
   });
 }
 
-// demo timer (не обязателен, но пусть работает)
 const tH = document.getElementById('tH');
 const tM = document.getElementById('tM');
 const tS = document.getElementById('tS');
